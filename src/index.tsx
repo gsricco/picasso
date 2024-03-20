@@ -3,8 +3,8 @@ import { BrowserRouter } from 'react-router-dom'
 
 import ReactDOM from 'react-dom/client'
 
-import { store } from './api/store'
-import App from './pages/App'
+import App from './app/App'
+import { store } from './app/store'
 import reportWebVitals from './reportWebVitals'
 import { GlobalStyles } from './styles/GlobalStyles'
 

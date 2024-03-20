@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-import { themeProject } from '../../styles/Them.styled'
+import { themeProject } from '../../../styles/Them.styled'
 
 export const WrapperPostPage = styled.div`
   display: flex;

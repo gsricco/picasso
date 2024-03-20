@@ -1,8 +1,8 @@
 import { Route, Routes } from 'react-router-dom'
 
-import ErrorPage from '../pages/ErrorPage/ErrorPage'
-import MainPage from '../pages/MainPage/MainPage'
-import PostPage from '../pages/PostPage/PostPage'
+import ErrorPage from '../../pages/ErrorPage/ui/ErrorPage'
+import MainPage from '../../pages/MainPage/ui/MainPage'
+import PostPage from '../../pages/PostPage/ui/PostPage'
 import { routesPathsEnum } from './enums'
 
 const AppRoutes = () => {

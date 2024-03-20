@@ -1,8 +1,8 @@
 import { useNavigate } from 'react-router-dom'
 
-import { ButtonStyled } from '../../features/PostsList/PostsList.styled'
-import { routesPathsEnum } from '../../routes/enums'
-import errorPage from '../../styles/images/404.svg'
+import { routesPathsEnum } from '../../../app/routes/enums'
+import errorPage from '../../../styles/images/404.svg'
+import { ButtonStyled } from '../../../widgets/PostsList/ui/PostsList.styled'
 import { WrapperErrorPage } from './ErrorPage.styled'
 
 const ErrorPage = () => {

@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from 'react'
 
-import { useGetAllPostsQuery, useGetPostsQuery } from '../api/PostsAPI/getAllPostsAPI'
+import { useGetAllPostsQuery, useGetPostsQuery } from '../api/getAllPostsAPI'
 
 export const useGetPosts = () => {
   const lastPage = Number(sessionStorage.getItem('lastPage'))
