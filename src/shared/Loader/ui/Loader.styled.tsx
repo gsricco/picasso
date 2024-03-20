@@ -1,6 +1,6 @@
 import { keyframes, styled } from 'styled-components'
 
-import { themeProject } from '../../styles/Them.styled'
+import { themeProject } from '../../../styles/Them.styled'
 
 const rotate = keyframes`
   from {

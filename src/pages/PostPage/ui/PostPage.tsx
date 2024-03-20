@@ -1,8 +1,8 @@
 import { useNavigate, useParams } from 'react-router-dom'
 
-import { useGetPostQuery } from '../../api/PostsAPI/getAllPostsAPI'
-import { ButtonStyled } from '../../features/PostsList/PostsList.styled'
-import { routesPathsEnum } from '../../routes/enums'
+import { routesPathsEnum } from '../../../app/routes/enums'
+import { useGetPostQuery } from '../../../entities/Post/api/getAllPostsAPI'
+import { ButtonStyled } from '../../../widgets/PostsList/ui/PostsList.styled'
 import { TextItemPost, WrapperPostPage } from './PostPage.styled'
 
 const PostPage = () => {

@@ -1,6 +1,6 @@
-import { Loader } from '../../components/Loader'
-import { PostsList } from '../../features/PostsList/PostsList'
-import { useGetPosts } from '../../hooks/useGetPosts'
+import { useGetPosts } from '../../../entities/Post/hooks/useGetPosts'
+import { Loader } from '../../../shared/Loader'
+import { PostsList } from '../../../widgets/PostsList/ui/PostsList'
 import { WrapperPage } from './MainPage.styled'
 
 const MainPage = () => {

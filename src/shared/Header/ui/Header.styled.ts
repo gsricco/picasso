@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-import { themeProject } from '../../styles/Them.styled'
+import { themeProject } from '../../../styles/Them.styled'
 
 export const HeaderStyles = styled.div`
   display: flex;

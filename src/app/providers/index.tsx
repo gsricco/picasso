@@ -3,10 +3,10 @@ import { BrowserRouter } from 'react-router-dom'
 
 import ReactDOM from 'react-dom/client'
 
-import { store } from './api/store'
-import App from './pages/App'
-import reportWebVitals from './reportWebVitals'
-import { GlobalStyles } from './styles/GlobalStyles'
+import reportWebVitals from '../../reportWebVitals'
+import { GlobalStyles } from '../../styles/GlobalStyles'
+import App from '../App'
+import { store } from '../store'
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 

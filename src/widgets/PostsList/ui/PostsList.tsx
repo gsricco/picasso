@@ -1,5 +1,5 @@
-import { PostType } from '../../api/PostsAPI/postApiTypes'
-import { Post } from '../Post/Post'
+import { PostType } from '../../../entities/Post/api/postApiTypes'
+import { Post } from '../../../entities/Post/ui/Post'
 import {
   TableBodyStyled,
   TableHeadCellStyled,
